@@ -1,0 +1,31 @@
+# Editor local. No se versiona: reglas y caché de la máquina.
+.cursor/
+
+# Secretos y entorno local
+.env
+.env.*
+!.env.example
+
+# Dependencias. El lockfile del proyecto es pnpm-lock.yaml.
+node_modules/
+package-lock.json
+yarn.lock
+
+# Builds y cliente generado
+dist/
+.next/
+out/
+build/
+generated/
+src/generated/
+coverage/
+*.tsbuildinfo
+
+# Logs, caches y SO
+*.log
+.eslintcache
+.turbo
+.vercel
+*.pem
+.DS_Store
+Thumbs.db

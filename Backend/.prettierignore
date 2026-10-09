@@ -1,0 +1,6 @@
+dist
+node_modules
+coverage
+pnpm-lock.yaml
+src/infrastructure/db/sequelize/migrations
+src/infrastructure/db/sequelize/seeders

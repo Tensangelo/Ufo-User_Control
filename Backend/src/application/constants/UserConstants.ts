@@ -1,0 +1,6 @@
+export const USER_LIMITS = {
+	DEFAULT_PAGE: 1,
+	DEFAULT_PAGE_SIZE: 10,
+	MAX_PAGE_SIZE: 100,
+	EXPORT_BATCH_SIZE: 500,
+} as const;
